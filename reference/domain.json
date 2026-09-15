@@ -1,0 +1,10 @@
+{
+  "event_types": ["prescription", "pre_authorization", "receipt", "supplement", "approval", "denial", "payout"],
+  "claim_states": ["draft", "submitted", "needs_documents", "approved", "denied", "paid"],
+  "currencies": [
+    "CNY",
+    "HKD",
+    "USD"
+  ],
+  "quantity_precision": 6
+}
