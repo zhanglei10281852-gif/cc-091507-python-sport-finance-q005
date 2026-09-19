@@ -1,6 +1,17 @@
 {
   "event_types": ["prescription", "pre_authorization", "receipt", "supplement", "approval", "denial", "payout"],
+  "decision_event_types": ["preauth_expired", "plan_changed", "policy_year_switch", "follow_up_flagged"],
   "claim_states": ["draft", "submitted", "needs_documents", "approved", "denied", "paid"],
+  "payer_types": ["commercial_insurance", "club_benefit", "personal_account"],
+  "portion_categories": ["reimbursable", "pending_documents", "personal", "denied"],
+  "document_types": ["invoice_image", "itemized_bill", "diagnosis_report", "prescription_copy", "preauth_letter"],
+  "service_items": [
+    {"code": "PT-KNEE-MANUAL", "name": "膝关节手法治疗", "category": "physiotherapy", "unit_price": "480.00", "currency": "CNY"},
+    {"code": "PT-KNEE-EXERCISE", "name": "膝关节运动疗法", "category": "physiotherapy", "unit_price": "360.00", "currency": "CNY"},
+    {"code": "HYDRO-THERAPY", "name": "水疗康复", "category": "physiotherapy", "unit_price": "520.00", "currency": "CNY"},
+    {"code": "MRI-KNEE", "name": "膝关节磁共振检查", "category": "imaging", "unit_price": "1200.00", "currency": "CNY"},
+    {"code": "BRACE-KNEE", "name": "膝关节支具", "category": "equipment", "unit_price": "1500.00", "currency": "CNY"}
+  ],
   "currencies": [
     "CNY",
     "HKD",
